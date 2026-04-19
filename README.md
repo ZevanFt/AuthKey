@@ -94,4 +94,6 @@ flutter build apk --release
 
 ## 许可证
 
-© 2025 且试新茶趁年华. All rights reserved.
+本项目基于 [GNU General Public License v3.0](LICENSE) 开源。
+
+© 2025 且试新茶趁年华

@@ -94,4 +94,6 @@ See the [Open Source Licenses](lib/screens/oss_licenses_screen.dart) page within
 
 ## License
 
-© 2025 且试新茶趁年华. All rights reserved.
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
+
+© 2025 且试新茶趁年华
