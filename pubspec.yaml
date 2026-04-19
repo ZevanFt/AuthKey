@@ -1,0 +1,72 @@
+name: totp_auth
+description: "TOTP Authenticator - Secure two-factor authentication app for Android & HarmonyOS"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # 加密库 - TOTP核心依赖
+  crypto: ^3.0.6
+
+  # 安全存储 - 加密持久化密钥
+  flutter_secure_storage: ^9.2.4
+
+  # 二维码扫描
+  mobile_scanner: ^6.0.5
+
+  # 二维码生成（用于导出）
+  qr_flutter: ^4.1.0
+
+  # 状态管理
+  provider: ^6.1.5
+
+  # URI解析（解析otpauth://）
+  uri: ^1.0.0
+
+  # Base32编解码（TOTP密钥标准格式）
+  base32: ^2.2.0
+
+  # 路径提供
+  path_provider: ^2.1.5
+
+  # JSON序列化
+  json_annotation: ^4.9.0
+
+  # 生物识别（指纹/人脸）
+  local_auth: ^2.3.0
+
+  # 分享/导出文件
+  share_plus: ^10.0.0
+
+  # 文件选择（导入）
+  file_picker: ^9.0.0
+
+  # 加密（转移时加密数据）
+  encrypt: ^5.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.14
+  json_serializable: ^6.9.4
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#12122A"
+  adaptive_icon_foreground: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.png

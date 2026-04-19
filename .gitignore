@@ -1,0 +1,61 @@
+# Flutter/Dart/Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.lock
+!pubspec.lock
+build/
+.fvm/
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/app/release.jks
+android/key.properties
+*.jks
+*.keystore
+
+# iOS
+ios/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Engine.framework
+
+# Build outputs
+*.apk
+*.aab
+*.ipa
+*.app/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+.lcov
+
+# Generated
+*.g.dart
+*.freezed.dart
+*.config.dart
+
+# DevTools
+.flutter-devtools/
+
+# Misc
+*.log
+.env
